@@ -1,0 +1,29 @@
+/* This css is used for general styling */
+
+/* import */
+
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #05605b;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* preference  */
+p{
+    letter-spacing: 0.25rem;
+    font-family: 'raleway', helvetica, sans-serif;
+    color: rgb(31, 31, 31);
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

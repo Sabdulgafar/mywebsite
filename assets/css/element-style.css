@@ -1,0 +1,53 @@
+/* Navigation */
+nav{margin: auto;display: block;padding: 1rem 0 1rem 0;margin-left: 11.5rem;}
+.brand{float: left;margin: -0.25rem 0 0 2rem;}
+.nav-menu{position: relative;left: 21rem;}
+.nav-menu ul li{float: left;list-style: none;}
+.nav-menu ul li a{display: block;padding: 0.25rem 0.75rem;}
+.nav-menu ul li a:hover{border-bottom: #05605b solid thin;}
+.call-to-action{clear: right;}
+.call-to-action button{border-radius: 15px;background-color: #05605b;color: white;padding: 0.5rem 1.25rem;border: none;margin:-0.12rem 0 0 40rem;border: solid thin #05605b;}
+.call-to-action button:hover{background-color: white;color: #05605b;border: solid thin #05605b;}
+
+/* banner section */
+.b-left{float: left;width: 70%;box-sizing: border-box;background-color: #05605b;height: 480px;}
+.left-content{display: block;margin: auto;width: 58%;margin-top: 4rem;margin-bottom: 4rem;}
+.left-content h4, h1, p{color: white;margin: 1.5rem 0rem;}
+.left-content h1{font-size: 48px;}
+.left-content p{font-size: 12px;}
+.hire,.downloadcv{padding: 0.5rem 1.25rem;margin-right: 1rem;border-radius: 10px;}
+.hire{border: none;background-color: white;color: #05605b;}
+.downloadcv{border: solid thin white;background-color: #05605b;}
+.downloadcv a{color: white;}
+.banner-container::after{clear: both;}
+
+/* service section */
+.serv-container{padding: 2rem;}
+.serv-content{display: block; width: 74%; margin: auto; height: 540px;}
+.serv-content{display: flex;}
+.serv-content-right > p,.serv-content-right > h1,.serv-content-right > h4{color: #05605b;}
+.serv-content-right{margin: 0.75rem 0rem 0rem 2.5rem;}
+
+
+/* customer review section */
+.cr-container{background-color: #05605b;color: white;width: 100vw;box-sizing: border-box;padding: 4rem;height: 320px;}
+.cr-left{display: block;margin: auto;width: 80%;}
+.cr-left h1{font-size: 42px;}
+.cr-left{float: left;width: 40%;}
+.cr-right{float: right;width: 60%;display: flex;}
+.cr-right > span{margin-right: 1.75rem;}
+.cr-left img{position: relative;top: 15px;margin: 0rem 1.75rem 0rem 0rem;}
+.cr-left h1{margin-top: 3rem;}
+.star {display: inline-block;width: 0;height: 0;border-right: 10px solid transparent;border-bottom: 20px solid yellow;border-left: 10px solid transparent;transform: rotate(35deg);}
+.star::before {content: "";position: absolute;top: -10px;left: -10px;width: 0;height: 0;border-right: 10px solid transparent;border-bottom: 20px solid yellow;border-left: 10px solid transparent;transform: rotate(-35deg);}
+.star::after {content: "";position: absolute;top: -10px;left: -10px;width: 0;height: 0;border-right: 10px solid transparent;border-bottom: 20px solid yellow;border-left: 10px solid transparent;transform: rotate(-70deg);}
+
+/* faq section */
+.faq-container{margin: 0.5rem 0rem;height: 720px;padding-top: 4rem; display: block; width: 70%; margin:auto;}
+.faq-container h1{text-align: center; color: #05605b;}.faq-container h3{text-align: center; color: #21d330;}
+.faq-content{display: flex;}
+.faq-content > div{width: 49%;}
+.collapsible {color: #05605b;cursor: pointer;padding: 18px;width: 100%;border: none;text-align: left;outline: none;font-size: 15px; background-color: white; border-bottom: solid thin #05605b;}
+.content {padding: 0 18px;display: none;overflow: hidden; background-color: #21d3301f;}
+.faq-left-content p,.faq-right-content p{color: #05605b !important;}
+.faq-right-content{margin-left: 2rem;}
